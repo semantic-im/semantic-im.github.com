@@ -6,7 +6,7 @@
   <body>
     <h1>SIM - Semantic Instrumentation and Monitoring</h1>
       <p>SIM was developed as part of the EU FP7 Large Knowledge Collider project (LarKC - http://larkc.eu - WP11). It enables the instrumentation and monitoring of LarKC applications in particular and any java distributed system in
-general. It offers the means for developers to specify the metrics of interest, to intrument the code, to collect and observe how well the system and its components are performing.
+general. It offers the means for developers to specify the metrics of interest, to intrument the code, to collect and observe how well the system and its components are performing.</p>
       <p>There are five major components that are part of SIM: 
         <ul>
           <li>instrumentation</li>
@@ -15,7 +15,10 @@ general. It offers the means for developers to specify the metrics of interest, 
           <li>visualization</li>
           <li>relevance feedback</li>
         </ul>
-      <p>While the first two (i.e. instrumentation code and agents) are responsible for setting up the process and collecting the monitoring data, the last two (i.e. visuzaliation and relevance feedback) are processing the raw monitoring data enabling the end user to take full advantage of it. More preciely, the visuzalization component displays monitoring data collected from the LarKC platform, plug-ins and workflows and the relevance feedback component learns uses data mining techniques and performs machine learning on top of the monitoring data.
+      </p>
+      <p>While the first two (i.e. instrumentation code and agents) are responsible for setting up the process and collecting the monitoring data, the last two (i.e. visuzaliation and relevance feedback) are processing the raw monitoring data enabling the end user to take full advantage of it. More preciely, the visuzalization component displays monitoring data collected from the LarKC platform, plug-ins and workflows and the relevance feedback component learns uses data mining techniques and performs machine learning on top of the monitoring data.</p>
+      <p>SIM was designed to be generic so can be used to instrument and monitor any java application and can be customized to monitor business metrics like in case of an e-commerce application it can monitor customers operations, order details like price and number of products ordered. Then all these metrics can be visualized in real time or as historic data and in case of anomalies you can zoom in and explore the conditions that caused the anomaly. SIM also has a relevance-feedback mechanism built on machine learnings algorithms that allows you to make predictions and answer "what-if" scenarios.</p>
+      <p>SIM can be used by developers to monitor performance of their applications during development, by system administrators to monitor the performance on production and it can also be used to monitor bussiness level metrics by sales and marketing departments.</p>
       <p>More information:
         <ul>
           <li><a href="sim-presentation-larkc-final-review.ppt">SIM presentation for Larkc final review in Vienna</a></li>
@@ -23,5 +26,17 @@ general. It offers the means for developers to specify the metrics of interest, 
           <li><a href="sim-visualization-and-relevance-feedback.pdf">Visualization and relevance feedback in depth description</a></li>
           <li><a href="sim-larkc-evaluation.pdf">SIM evaluation for Larkc</a></li>
         </ul>
+      </p>
+      <p>Source code & documentation:
+        <ul>
+          <li><a href="https://github.com/semantic-im/sim-instrumentation">sim-instrumentation</a></li>
+          <li><a href="https://github.com/semantic-im/sim-agent">sim-agent</a></li>
+          <li><a href="https://github.com/semantic-im/sim-server">sim-server</a></li>
+          <li><a href="https://github.com/semantic-im/sim-visualization">sim-visualization</a></li>
+          <li><a href="https://github.com/semantic-im/sim-visualization-liferay-portlets">sim-visualization-liferay-portlets</a></li>
+          <li><a href="https://github.com/semantic-im/sim-relevance-feedback">sim-relevance-feedback</a></li>
+        </ul>
+      </p>
+
   </body>
 </html>
